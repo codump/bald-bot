@@ -1,4 +1,6 @@
-# bald-bot <img src="https://komarev.com/ghpvc/?username=codump&repo=bald-bot&style=flat&label=Views" alt="Views" title="Views" /> <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clones&query=count&url=https://gist.githubusercontent.com/kipBO/05952bb3ca6ed7df0cafbbfbc3544155/raw/clone.json&logo=github'></a>
+# bald-bot
+
+<a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clones&query=count&url=https://gist.githubusercontent.com/kipBO/05952bb3ca6ed7df0cafbbfbc3544155/raw/clone.json&logo=github'></a> <img src="https://komarev.com/ghpvc/?username=codump&repo=bald-bot&style=flat&label=views" alt="views" title="views" /> ![Commits](https://badgen.net/github/commits/codump/bald-bot?cache=300) ![LastUpdate](https://badgen.net/github/last-commit/codump/bald-bot?cache=300) ![DependaBot](https://badgen.net/github/dependabot/codump/bald-bot?cache=300)
 
 Advanced bot project template for Bot-Hosting.net
 

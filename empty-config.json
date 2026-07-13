@@ -1,0 +1,20 @@
+{
+  "botStatus": "prod",
+  "botClientId": "",
+  "botToken": "",
+  "masterId": "",
+  "masterGuildId": "",
+  "masterLogId": "",
+  "deployCommands": true,
+  "coolDownCommands": {
+    "defaultAmount": 3,
+    "commandsPerMinute": 20,
+    "immuneCoolDownRoles": ["", ""]
+  },
+  "honeypotId": "",
+  "logging": {
+    "paranoia": 1,
+    "logError": true,
+    "logSucces": true
+  }
+}

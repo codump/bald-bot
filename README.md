@@ -39,12 +39,12 @@ Can be set per command by adding `cooldown: 5,` below the command `module.export
 
 ### Logging
 
-Set the level of your `paranoia` from 1 to 5 where 1 is the highest and most strict. You can also disable `logError` and `logSucces` entirely by setting them to false. Have them enabled and your paranoia set to 1 will log EVERYTHING to your discord master log channel. We kept all errors in level 5 so they always show up. You can, of course, tweak everything to your liking.
+Set the level of your `paranoia` from 1 to 5 where 1 is the highest and most strict. You can also disable `logError` and `logSucces` entirely by setting them to false. Have them enabled and your paranoia set to 1 will log EVERYTHING to your discord master log channel. We kept all errors in level 5 so they always show up. You can, of course, tweak everything to your liking. Keep in mind that some logs can't be send to discord and your console is the most reliable.
 
 - 5 shows: All errors, bot added to guild.
 - 4 shows all from 5 plus: Bot is ready, deploy commands.
-- 3 shows all from 4 plus: Bot status.
-- 2 shows all from 3 plus: -
+- 3 shows all from 4 plus: Bot status, global rate limit.
+- 2 shows all from 3 plus: Per command rate limits.
 - 1 shows all from 2 plus: Everything.
 
 ## Features

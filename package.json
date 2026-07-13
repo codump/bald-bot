@@ -14,11 +14,16 @@
   "keywords": [
     "discord",
     "bot",
-    "bot",
+    "bot-hosting",
     "hosting",
-    "codump"
+    "codump",
+    "codump.github.io",
+    "managing tool",
+    "tutorial",
+    "template",
+    "project"
   ],
-  "author": "Codump",
+  "author": "Codump.github.io",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codump/bald-bot/issues"

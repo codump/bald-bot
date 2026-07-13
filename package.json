@@ -1,0 +1,36 @@
+{
+  "name": "bald-bot",
+  "version": "0.1.1",
+  "description": "Advanced bot project template for Bot-Hosting.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codump/bald-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "bot",
+    "hosting",
+    "codump"
+  ],
+  "author": "Codump",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codump/bald-bot/issues"
+  },
+  "homepage": "https://github.com/codump/bald-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.26.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "overrides": {
+    "undici": "^6.26.0"
+  }
+}

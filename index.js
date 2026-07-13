@@ -1,7 +1,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
-const { botClientId, botToken } = require("./config.json");
+const express = require("express");
+
+const { port, botClientId, botToken } = require("./config.json");
 const { masterDiscordLog } = require("./lib/globallog");
 
 // Catches regular synchronous or code-level runtime errors
@@ -178,3 +180,10 @@ if (fs.existsSync(eventsPath)) {
 client.login(botToken).catch((err) => {
   console.error(err);
 });
+
+// express
+const app = express();
+app.get("/health", (req, res) => res.sendStatus(200));
+
+app.listen(port);
+// express

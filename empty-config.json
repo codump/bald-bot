@@ -1,4 +1,5 @@
 {
+  "port": "3000",
   "botStatus": "prod",
   "botClientId": "",
   "botToken": "",

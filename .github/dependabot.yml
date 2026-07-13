@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Configuratie voor Node.js (package.json)
+  - package-ecosystem: "npm"
+    directory: "/" # Zoek in de hoofdmap van het project
+    schedule:
+      interval: "weekly" # Controleer elke week (kan ook "daily" of "monthly")
+    open-pull-requests-limit: 5 # Maximaal 5 openstaande PR's tegelijk
+    labels:
+      - "dependencies"

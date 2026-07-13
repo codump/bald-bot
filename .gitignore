@@ -1,3 +1,10 @@
+# Project
+.vscode
+config.json
+*.code-workspace
+local-ignore/
+.github/workflows
+
 # Logs
 logs
 *.log

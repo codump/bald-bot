@@ -4,7 +4,7 @@
 
 Advanced bot project template for Bot-Hosting.net
 
-## Getting startedd
+## Getting started
 
 First of all rename `empty-config.json` to `config.json` and fill in the details:
 

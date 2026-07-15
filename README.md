@@ -5,6 +5,17 @@
 ![Bald Bot Cover](https://raw.githubusercontent.com/codump/bald-bot/refs/heads/main/public/images/bald-bot-discord-cover.gif)<br/>
 Advanced bot project template for Bot-Hosting.net
 
+## Features `v0.1.1`
+
+- Global, guild and user installed commands.
+- Commands cooldown and spam prevention.
+- Global logging to your discord.
+- Honeypot to catch and ban spam bots.
+- Ban from service. (planned)
+- Dashboard website. (planned)
+- Login website add to discord server. (planned)
+- Alt account checker. (planned)
+
 ## Getting started
 
 First of all rename `empty-config.json` to `config.json` and fill in the details:
@@ -46,17 +57,6 @@ Set the level of your `paranoia` from 1 to 5 where 1 is the highest and most str
 - 3 shows all from 4 plus: Bot status, global rate limit.
 - 2 shows all from 3 plus: Per command rate limits.
 - 1 shows all from 2 plus: Everything.
-
-## Features
-
-- Global, guild and user installed commands.
-- Commands cooldown and spam prevention.
-- Global logging to your discord.
-- Honeypot to catch and ban spam bots.
-- Ban from service. (planned)
-- Dashboard website. (planned)
-- Login website add to discord server. (planned)
-- Alt account checker. (planned)
 
 ## Troubleshooting
 

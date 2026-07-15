@@ -16,6 +16,8 @@ Advanced bot project template for Bot-Hosting.net
 - Login website add to discord server. (planned)
 - Alt account checker. (planned)
 
+[![Deploy on Bot-Hosting](https://bot-hosting.net/assets/deploy-badge.svg)](https://bot-hosting.net/deploy?source=template&template=bald-bot)
+
 ## Getting started
 
 First of all rename `empty-config.json` to `config.json` and fill in the details:

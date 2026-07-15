@@ -12,10 +12,10 @@ Advanced bot project template for Bot-Hosting.net
 - Commands cooldown and spam prevention.
 - Global logging to your discord.
 - Honeypot to catch and ban spam bots.
-- Ban from service. (planned)
 - Dashboard website. (planned)
 - Login website add to discord server. (planned)
 - Alt account checker. (planned)
+- Ban from service. (planned)
 
 [![Deploy on Bot-Hosting](https://bot-hosting.net/assets/deploy-badge.svg)](https://bot-hosting.net/deploy?source=template&template=bald-bot)
 
@@ -28,6 +28,7 @@ First of all rename `empty-config.json` to `config.json` and fill in the details
 - `botToken` go to the [Discords developers portal](https://discord.com/developers/applications/) and find the Token for your new application.
 - `masterId` your own user ID from discord to give you master powers.
 - `masterGuildId` the guild ID of your own discord.
+- `masterLogId` channel ID for your master log.
 - `deployCommands` set to `true` if you want to deploy your commands on startup. And `false` to skip this part during development.
 - `coolDownCommands` is explained in more details below under [settings](#cooldown).
 - `honeypotId` is channel ID that you want to use as a honeypot for spam bots.

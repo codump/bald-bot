@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/codump/bald-bot#readme",
   "dependencies": {
-    "discord.js": "^14.26.4",
+    "discord.js": "^14.26.5",
     "express": "^5.2.1"
   },
   "devDependencies": {

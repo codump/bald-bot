@@ -7,6 +7,7 @@ local-ignore/
 # Logs
 logs
 *.log
+*.old
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
